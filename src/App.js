@@ -34,7 +34,7 @@ const App = () => {
       <p id="para"></p>
 
       <form onSubmit={postFormFromFrontend}>
-        <input type="text" name="formData" value={formData} onChange={(e =>setFormData(e.target.value))}></input>
+        <input type="text" name="formData" value={formData} onChange={(e) =>setFormData(e.target.value)}></input>
         <input type="submit" value="Test Form"></input>
       </form>
     </div>
